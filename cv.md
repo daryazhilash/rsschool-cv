@@ -4,10 +4,10 @@
 
 **********************************************************************************************************
 **Contact**
-+	Tel: +375296940539
-+	E-mail: darya.zhilash@gmail.com
-+	Discord: dasha_zhilach
-+   GitHub (@daryazhilash)
++	Tel: +375296940539;
++	E-mail: darya.zhilash@gmail.com;
++	Discord: dasha_zhilach;
++   GitHub (@daryazhilash);
 
 **About myself**
 I work as a sales manager for a long time but I do want to change my profession. I wanted to move in IT sphere 5 years ago but decided to do it just now. I’ve read a lot information about frontend development and want to try myself in this sphere.
