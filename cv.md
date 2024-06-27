@@ -4,7 +4,7 @@
 
 **********************************************************************************************************
 **Contact**
-+	Tel: +375296940539
++	Tel: +375296940539 (GMT+3)
 +	E-mail: darya.zhilash@gmail.com
 +	Discord: dasha_zhilach
 +   GitHub (@daryazhilash)
