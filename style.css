@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Cabin', sans-serif;
+    src:url(assets/fonts/Cabin-Regular.ttf);
+    font-weight: 400;
+    }
+@font-face {
+    font-family: 'Cabin', sans-serif;
+    src:url(assets/fonts/Cabin-Bold.ttf);
+    font-weight: 700;
+    }
+@font-face {
+    font-family: 'Cabin', sans-serif;
+    src:url(assets/fonts/Cabin-Medium.ttf);
+    font-weight: 500;
+    }
+@font-face {
+    font-family: 'Cabin', sans-serif;
+    src:url(assets/fonts/Cabin-SemiBold.ttf);
+    font-weight: 600;
+    }
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+._container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*-----HEADER----*/
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 3s;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.header a {
+    color: #FFC905;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.header a:hover {
+    color: white;
+}
+/*----MAIN----*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    color:aliceblue;
+}
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    color:black
+}
+.photo {
+    width: 40%;
+}
+.profile-photo {
+    width: 100%;
+    height: auto;
+}
+.personal-details {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px 30px 20px;
+}
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: black;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: #FFC905;
+    display: block;
+    border-radius: 5px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: #FFC905;
+}
+.profile-description {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*----LEFT ASSIDE-----*/
+.left-aside {
+    width: 40%;
+    padding: 30px 20px 0px;
+    background-color: #292935;
+}
+/*----EDUCATION-----*/
+.list {
+    padding-top: 25px;
+}
+.list-item {
+    line-height: 2;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+/*----EXPERIENCE-----*/
+.experience {
+    padding-top: 20px;
+}
+/*----RIGHT ASSIDE-----*/
+.right-aside {
+    width: 60%;
+    background-color: #22222e;
+    padding: 30px 20px 20px;
+}
+/*----SKILLS-----*/
+/*----CODE EXAMPLES-----*/
+.code-text {
+    text-align: left;
+    font-size: 20px;
+}
+.code-examples>h2 {
+    margin-bottom: 30px;
+}
+/*----CONTACTS-----*/
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px 10px 0px;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+.contact-table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    border: none;
+}
+td, td {
+    border: none;
+}
+.contact-icon {
+    width: 10%;
+    background-color: #FFC905;
+    text-align: center;
+}
+.contact-information {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.contact-information > p {
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+}
+.details {
+    min-width: 90%;
+    padding-left: 15px;
+}
+.icon {
+    width: 70%;
+}
+/*----FOOTER----*/
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFC905;
+}
+._logo-icon {
+    width: 50%;
+    }
+.footer-media ._logo-icon {
+    width: 15%;
+}
+._logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+.footer-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 10px;
+}
+/*-----MEDIA----*/
+@media (max-width: 768px) {
+.left-aside, .right-aside {
+    width: 100%;
+    }
+}
